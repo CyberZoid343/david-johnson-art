@@ -1,0 +1,41 @@
+<footer class="border-top py-4">
+    <div class="container">
+        <div class="row mb-3">
+            <div class="col-md-12 text-center">
+                <a href="" class="btn bg-primary-faded btn-circle me-3">
+                    <div class="btn-circle-icon-wrapper">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                </a>
+                <a href="" class="btn bg-primary-faded btn-circle me-3">
+                    <div class="btn-circle-icon-wrapper">
+                        <i class="fa-brands fa-facebook"></i>
+                    </div>
+                </a>
+                <a href="" class="btn bg-primary-faded btn-circle me-3">
+                    <div class="btn-circle-icon-wrapper">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </a>
+                <a href="" class="btn bg-primary-faded btn-circle me-3">
+                    <div class="btn-circle-icon-wrapper">
+                        <i class="fa-brands fa-patreon"></i>
+                    </div>
+                </a>
+            </div> 
+        </div>
+        <div class="row mb-3">
+            <div class="col-md-12 text-center">
+                <a [routerLink]="['/privacy']" class="btn btn-link d-md-inline d-block">About</a>
+                <a [routerLink]="['/terms-and-conditions']" class="btn btn-link d-md-inline d-block">Terms & Conditions</a>
+                <a [routerLink]="['/privacy']" class="btn btn-link d-md-inline d-block">Privacy</a>
+                <a [routerLink]="['/privacy']" class="btn btn-link d-md-inline d-block">Contact</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <small class="text-muted">© {{currentDate | date: 'yyyy'}} David Johnson Art. All rights reserved.</small>
+            </div>
+        </div>
+    </div>
+</footer>

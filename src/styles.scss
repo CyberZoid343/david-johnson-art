@@ -1,1 +1,44 @@
-/* You can add global styles to this file, and also import other style files */
+
+//General
+$primary: #a1683a;
+
+$box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+.bg-primary-faded{
+    color: $primary !important;
+    background-color: rgba($primary, 0.1) !important;
+}
+
+.box-shadow{
+    box-shadow: $box-shadow;
+}
+
+//Buttons
+.btn-link{
+    text-decoration: none !important;
+}
+
+.btn-link:hover{
+    text-decoration: underline !important;
+}
+
+.btn-circle{
+    border-radius: 50% !important;
+    padding: 8px !important;
+}
+
+.btn-circle-icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+
+//Typography
+
+.heading-bar{
+    height: 2px;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
