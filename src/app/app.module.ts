@@ -7,10 +7,10 @@ import { HomeComponent } from './views/home/home.component';
 import { AboutComponent } from './views/about/about.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { PortfolioComponent } from './views/portfolio/portfolio.component';
 import { ArtForSaleComponent } from './views/art-for-sale/art-for-sale.component';
 import { WorkshopsComponent } from './views/workshops/workshops.component';
 import { ContactComponent } from './views/contact/contact.component';
+import { CommissionsComponent } from './views/commissions/commissions.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +19,7 @@ import { ContactComponent } from './views/contact/contact.component';
     AboutComponent,
     NavbarComponent,
     FooterComponent,
-    PortfolioComponent,
+    CommissionsComponent,
     ArtForSaleComponent,
     WorkshopsComponent,
     ContactComponent

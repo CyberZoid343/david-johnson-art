@@ -1,3 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif !important;
+}
+
+.display-1, .display-2, .display-3, .display-4{
+    font-family: 'Abril Fatface', cursive  !important;
+}
+
+h1,h2,h3,h4,h5, .navbar-brand{
+    font-family: 'Lora', serif !important;
+}
 
 //General
 $primary: #a1683a;
