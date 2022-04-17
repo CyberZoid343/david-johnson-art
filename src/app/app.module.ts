@@ -10,7 +10,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ArtForSaleComponent } from './views/art-for-sale/art-for-sale.component';
 import { WorkshopsComponent } from './views/workshops/workshops.component';
 import { ContactComponent } from './views/contact/contact.component';
-import { CommissionsComponent } from './views/commissions/commissions.component';
+import { GalleryComponent } from './views/gallery/gallery.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +19,10 @@ import { CommissionsComponent } from './views/commissions/commissions.component'
     AboutComponent,
     NavbarComponent,
     FooterComponent,
-    CommissionsComponent,
     ArtForSaleComponent,
     WorkshopsComponent,
-    ContactComponent
+    ContactComponent,
+    GalleryComponent
   ],
   imports: [
     BrowserModule,
