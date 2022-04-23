@@ -3,8 +3,13 @@
 }
 
 #banner{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../../assets/images/index_banner.jpg');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../../../assets/images/about_banner.jpg');
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
+}
+
+.bg-gradient{
+    background: rgb(240,239,235) !important;
+    background: linear-gradient(90deg, rgba(240,239,235,1) 20%, rgba(255,232,214,1) 85%) !important;
 }

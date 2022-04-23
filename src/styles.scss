@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif !important;
@@ -10,8 +11,16 @@ body{
     font-family: 'Abril Fatface', cursive  !important;
 }
 
-h1,h2,h3,h4,h5, .navbar-brand{
+h1,h2,h3,h4,h5{
     font-family: 'Lora', serif !important;
+}
+
+.navbar-brand{
+    font-family: 'Dancing Script', cursive;
+}
+
+.text-cursive{
+    font-family: 'Dancing Script', cursive;
 }
 
 //General
@@ -29,6 +38,14 @@ $box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
 //Buttons
+// Allows for customizing button radius independently from global border radius
+$btn-padding-x: 24px;
+$btn-padding-x-sm: 24px;
+$btn-padding-x-lg: 24px;
+$btn-border-radius: 25px;
+$btn-border-radius-sm: 25px;
+$btn-border-radius-lg: 25px;
+
 .btn-link{
     text-decoration: none !important;
 }
